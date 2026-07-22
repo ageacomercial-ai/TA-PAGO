@@ -1,0 +1,11 @@
+/* Clássico Premium — duas colunas, dourado, elegante */
+.modelo-classico { --cv-primary: #1a2a3a; --cv-secondary: #b8860b; --cv-bg: #fefcf5; --cv-text: #2d2d2d; --cv-text-light: #6b7280; --cv-accent: #b8860b; }
+.modelo-classico .cv-layout { display:flex; min-height:297mm; background:var(--cv-bg); }
+.modelo-classico .cv-sidebar { width:32%; background:var(--cv-primary); color:#f0f0f0; padding:28px 16px; }
+.modelo-classico .cv-main { flex:1; padding:28px 24px; }
+.modelo-classico .cv-nome { font-family:var(--font-heading); font-size:24px; font-weight:700; color:var(--cv-primary); margin-bottom:4px; text-transform:uppercase; letter-spacing:1px; }
+.modelo-classico .cv-profissao { font-size:13px; color:var(--cv-secondary); font-weight:600; margin-bottom:20px; }
+.modelo-classico .cv-section-title { font-size:11px; text-transform:uppercase; letter-spacing:2px; font-weight:700; color:var(--cv-secondary); margin-bottom:8px; border-bottom:2px solid var(--cv-secondary); padding-bottom:4px; }
+.modelo-classico .cv-sidebar .cv-section-title { color:var(--cv-secondary); }
+.modelo-classico .cv-item-title { font-weight:600; font-size:13px; }
+.modelo-classico .cv-item-sub { font-size:12px; color:var(--cv-text-light); }

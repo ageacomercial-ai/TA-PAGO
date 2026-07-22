@@ -1,0 +1,11 @@
+/* Moderno — teal gradient, 1 coluna, clean */
+.modelo-moderno { --cv-primary: #0d9488; --cv-secondary: #14b8a6; --cv-bg: #ffffff; --cv-text: #1e293b; --cv-text-light: #64748b; --cv-accent: #0d9488; }
+.modelo-moderno .cv-layout { min-height:297mm; background:var(--cv-bg); }
+.modelo-moderno .cv-header { background:linear-gradient(135deg, #0d9488, #14b8a6); color:white; padding:32px 24px; text-align:center; }
+.modelo-moderno .cv-nome { font-family:var(--font-heading); font-size:26px; font-weight:700; margin-bottom:4px; }
+.modelo-moderno .cv-profissao { font-size:14px; opacity:0.9; }
+.modelo-moderno .cv-body { padding:24px; }
+.modelo-moderno .cv-section-title { font-size:12px; text-transform:uppercase; letter-spacing:2px; font-weight:700; color:var(--cv-primary); margin-bottom:8px; border-bottom:2px solid var(--cv-primary); padding-bottom:4px; }
+.modelo-moderno .cv-item-title { font-weight:600; font-size:14px; }
+.modelo-moderno .cv-item-sub { font-size:12px; color:var(--cv-text-light); }
+.modelo-moderno .cv-item-desc { font-size:12px; margin-top:4px; line-height:1.5; }

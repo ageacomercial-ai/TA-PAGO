@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-AO">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#1a1a2e">
+  <meta name="description" content="Tá Feito — Cria currículos, declarações, cartas e documentos profissionais com modelos premium">
+  <meta name="author" content="AGEA Soluções Tecnológicas">
+  <meta property="og:title" content="Tá Feito — Documentos Profissionais">
+  <meta property="og:description" content="Cria documentos profissionais em Angola. Tu dizes. Nós fazemos.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ta-feito-doc.vercel.app">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/icons/icon-192.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/models/executivo.css">
+  <link rel="stylesheet" href="css/models/classico.css">
+  <link rel="stylesheet" href="css/models/moderno.css">
+  <link rel="stylesheet" href="css/models/criativo.css">
+  <link rel="stylesheet" href="css/models/minimalista.css">
+  <link rel="stylesheet" href="css/models/academico.css">
+  <link rel="stylesheet" href="css/models/corporativo.css">
+  <link rel="stylesheet" href="css/models/jovem-talento.css">
+  <link rel="stylesheet" href="css/models/internacional.css">
+  <link rel="stylesheet" href="css/models/elegante.css">
+  <title>Tá Feito — Documentos Profissionais</title>
+</head>
+<body>
+  <div id="app">
+    <header id="app-header">
+      <div id="app-brand">
+        <div class="brand-logo">TF</div>
+        <span id="app-title">Tá Feito</span>
+      </div>
+      <div id="header-right"></div>
+    </header>
+
+    <div class="progress-container" id="progress-container">
+      <div class="progress-fill" id="progress-fill"></div>
+    </div>
+
+    <div id="app-content"></div>
+
+    <nav id="bottom-nav">
+      <button class="nav-item active" data-route="home" onclick="navegar('home')">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+        <span>Início</span>
+      </button>
+      <button class="nav-item" data-route="documentos" onclick="navegar('documentos')">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+        <span>Documentos</span>
+      </button>
+      <button class="nav-item" data-route="perfil" onclick="navegar('perfil')">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        <span>Perfil</span>
+      </button>
+      <button class="nav-item" data-route="planos" onclick="navegar('planos')">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="4" width="22" height="16" rx="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+        <span>Planos</span>
+      </button>
+    </nav>
+  </div>
+
+  <script src="js/config.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/router.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

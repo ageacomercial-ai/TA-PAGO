@@ -1,0 +1,9 @@
+/* Minimalista — preto e branco, tipografia como protagonista */
+.modelo-minimalista { --cv-primary: #111827; --cv-secondary: #374151; --cv-bg: #ffffff; --cv-text: #111827; --cv-text-light: #6b7280; }
+.modelo-minimalista .cv-layout { min-height:297mm; background:var(--cv-bg); padding:40px 32px; }
+.modelo-minimalista .cv-nome { font-family:var(--font-heading); font-size:24px; font-weight:400; color:var(--cv-primary); letter-spacing:2px; text-transform:uppercase; margin-bottom:2px; }
+.modelo-minimalista .cv-profissao { font-size:12px; color:var(--cv-text-light); font-weight:300; margin-bottom:24px; letter-spacing:1px; }
+.modelo-minimalista .cv-section-title { font-size:10px; text-transform:uppercase; letter-spacing:3px; font-weight:600; color:var(--cv-text-light); margin-bottom:8px; border-bottom:1px solid var(--cv-primary); padding-bottom:4px; }
+.modelo-minimalista .cv-item-title { font-weight:500; font-size:13px; letter-spacing:0.5px; }
+.modelo-minimalista .cv-item-sub { font-size:11px; color:var(--cv-text-light); }
+.modelo-minimalista .cv-item-desc { font-size:11px; margin-top:4px; line-height:1.6; color:var(--cv-text); }

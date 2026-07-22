@@ -1,0 +1,12 @@
+/* Corporativo — linhas rígidas, tabela de competências */
+.modelo-corporativo { --cv-primary: #1e3a5f; --cv-secondary: #eab308; --cv-bg: #ffffff; --cv-text: #1e293b; --cv-text-light: #64748b; }
+.modelo-corporativo .cv-layout { min-height:297mm; background:var(--cv-bg); }
+.modelo-corporativo .cv-header { background:var(--cv-primary); color:white; padding:24px; display:flex; justify-content:space-between; align-items:center; }
+.modelo-corporativo .cv-nome { font-family:var(--font-heading); font-size:22px; font-weight:700; }
+.modelo-corporativo .cv-profissao { font-size:12px; color:var(--cv-secondary); }
+.modelo-corporativo .cv-body { padding:24px; }
+.modelo-corporativo .cv-section-title { font-size:11px; text-transform:uppercase; letter-spacing:1.5px; font-weight:700; color:var(--cv-primary); margin-bottom:8px; border-bottom:2px solid var(--cv-primary); padding-bottom:4px; }
+.modelo-corporativo .cv-item-title { font-weight:600; font-size:13px; }
+.modelo-corporativo .cv-item-sub { font-size:12px; color:var(--cv-text-light); }
+.modelo-corporativo .cv-skill-bar { height:6px; background:#e5e7eb; border-radius:3px; overflow:hidden; margin:4px 0 8px; }
+.modelo-corporativo .cv-skill-fill { height:100%; background:var(--cv-primary); border-radius:3px; }

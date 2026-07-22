@@ -1,0 +1,10 @@
+/* Elegante — paleta suave, para atendimento/saúde/hotelaria */
+.modelo-elegante { --cv-primary: #be185d; --cv-secondary: #f472b6; --cv-bg: #fdf2f8; --cv-text: #1e293b; --cv-text-light: #6b7280; }
+.modelo-elegante .cv-layout { min-height:297mm; background:var(--cv-bg); }
+.modelo-elegante .cv-header { background:linear-gradient(135deg, #be185d, #f472b6); color:white; padding:28px 24px; text-align:center; }
+.modelo-elegante .cv-nome { font-family:var(--font-heading); font-size:24px; font-weight:700; }
+.modelo-elegante .cv-profissao { font-size:13px; opacity:0.9; }
+.modelo-elegante .cv-body { padding:24px; }
+.modelo-elegante .cv-section-title { font-size:11px; text-transform:uppercase; letter-spacing:2px; font-weight:700; color:var(--cv-primary); margin-bottom:8px; border-bottom:2px solid var(--cv-secondary); padding-bottom:4px; }
+.modelo-elegante .cv-item-title { font-weight:600; font-size:13px; color:var(--cv-primary); }
+.modelo-elegante .cv-item-sub { font-size:12px; color:var(--cv-text-light); font-style:italic; }

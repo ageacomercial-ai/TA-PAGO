@@ -1,0 +1,12 @@
+/* Executivo — sóbrio, azul-marinho escuro, serifado */
+.modelo-executivo { --cv-primary: #0f1b2d; --cv-secondary: #c9a84c; --cv-bg: #ffffff; --cv-text: #1a1a2e; --cv-text-light: #6b7280; --cv-sidebar-bg: #0f1b2d; --cv-sidebar-text: #e5e7eb; --cv-accent: #c9a84c; }
+.modelo-executivo .cv-layout { display:flex; min-height:297mm; }
+.modelo-executivo .cv-sidebar { width:35%; background:var(--cv-sidebar-bg); color:var(--cv-sidebar-text); padding:24px 16px; }
+.modelo-executivo .cv-main { flex:1; padding:24px 20px; }
+.modelo-executivo .cv-nome { font-family:var(--font-heading); font-size:22px; font-weight:700; color:var(--cv-secondary); margin-bottom:4px; }
+.modelo-executivo .cv-profissao { font-size:12px; color:var(--cv-sidebar-text); opacity:0.8; margin-bottom:20px; }
+.modelo-executivo .cv-section-title { font-size:11px; text-transform:uppercase; letter-spacing:1.5px; font-weight:600; color:var(--cv-secondary); margin-bottom:8px; border-bottom:1px solid rgba(201,168,76,0.3); padding-bottom:4px; }
+.modelo-executivo .cv-sidebar .cv-section-title { color:var(--cv-secondary); }
+.modelo-executivo .cv-item-title { font-weight:600; font-size:13px; }
+.modelo-executivo .cv-item-sub { font-size:12px; color:var(--cv-text-light); }
+.modelo-executivo .cv-item-desc { font-size:12px; margin-top:4px; line-height:1.5; }
